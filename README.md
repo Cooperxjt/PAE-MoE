@@ -76,7 +76,3 @@ Then, you could tune these datasets in your order.
 ## Evaluation
 
 We have prepared the scripts to evaluate the trained model in `scripts/*/Eval`.
-
-These scripts will evalute the trained model and create the prompts (`prompt_to_eval.json`) for evaluating the general knowldege.
-
-To evaluate the general knowldege, you could add the result path to `scripts/Eval_GeneralKnowledge/eval_prompt_slim.sh` and run it, this script file will output a score to indicate the general knowledge.
